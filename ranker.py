@@ -81,4 +81,5 @@ if len(run) > 0:
 			if i >= 1000:
 				color = 'red'
 			if int(my_atk) == data['atkv'] and int(my_def) == data['defv'] and int(my_sta) == data['stav']:
-				print(colored(mon+' | Rank: '+str(i)+' | Level: '+str(data['lvl'])+' | Max CP: '+str(max_cp), color))
+				mcp = ' | Max CP: '+str(max_cp) if max_cp < 1500 else ''
+				print(colored(mon+' | Rank: '+str(i)+' | Level: '+str(data['lvl'])+mcp, color))
