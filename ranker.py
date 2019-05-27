@@ -68,13 +68,17 @@ if len(run) > 0:
 						gmult = mult
 					ghp = max(10,int(gmult*(staiv + bsta)))
 					gl_comb = float((gmult ** 2) * (atkiv + batk) * (defiv + bdef) * ghp)
+					dupe = False
+					if gl_comb in gl_out.keys():
+						dupe = True
 					while gl_comb in gl_out.keys():
 						gl_comb = numpy.nextafter(gl_comb, 1)
-					gl_out[gl_comb] = { "atkv": atkiv, "defv": defiv, "stav": staiv, "lvl": glvl }
+					gl_out[gl_comb] = { "atkv": atkiv, "defv": defiv, "stav": staiv, "lvl": glvl, "dupe": dupe }
 		out = sorted(gl_out.items(), reverse=True)
 		i = 0
 		for trash, data in out:
-			i += 1
+			if data['dupe'] != True:
+				i += 1
 			color = 'green'
 			if i >= 500:
 				color = 'yellow'
