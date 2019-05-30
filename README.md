@@ -3,7 +3,7 @@
 
 Setup:
 
-        pip install termcolor numpy
+        sudo pip install termcolor numpy
 
 Usage:
 
