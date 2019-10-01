@@ -1,4 +1,10 @@
 # pogo-ranker
+
+
+Setup:
+
+        sudo pip install termcolor numpy
+
 Usage:
 
         python ./ranker.py bulbasaur 0 14 15
