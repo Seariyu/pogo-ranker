@@ -847,7 +847,7 @@
   "sta": 155
 },
 {
-  "name": "MR_MIME",
+  "name": "MR-MIME",
   "number": "122",
   "atk": 192,
   "def": 205,
@@ -2697,8 +2697,8 @@
 {
   "name": "DEOXYS",
   "number": "386",
-  "atk": 230,
-  "def": 218,
+  "atk": 144,
+  "def": 330,
   "sta": 137
 },
 {

@@ -15,22 +15,23 @@ my_atk = int(sys.argv[2])
 my_def = int(sys.argv[3])
 my_sta = int(sys.argv[4])
 
+if len(sys.argv) > 5:
+    max_print = int(sys.argv[5])
+else:
+	max_print = 0
+
 batk = 0
 run = [mon]
 evo_table = {}
 pokemon_data = {}
 
-with open('pokemon_simplified.json') as json_file:  
+with open('pogo-mon-data.json') as json_file:  
     data = json.load(json_file)
     for p in data:
-    	pokemon_data[str(p['name']).title()] = {'atk': p['atk'], 'def': p['def'], 'sta': p['sta']}
-
-with open('pokemon_data.json') as json_file:  
-    data = json.load(json_file)
-    for p in data:
+    	pokemon_data[str(p['name']).title()] = {'atk': int(p['atk']), 'def': int(p['def']), 'sta': int(p['sta'])}
     	evo_table[str(p['name']).title()] = []
     	for evo in p['evolutions']:
-    		evo_table[str(p['name']).title()].append(evo['to'])
+    		evo_table[str(p['name']).title()].append(evo)
 
 if not mon in pokemon_data.keys():
 	print("Sorry, cannot find '"+mon+"', did you misspell it?")
@@ -40,7 +41,8 @@ for mon in run:
 	if mon in evo_table.keys():
 		if len(evo_table[mon]) > 0:
 			for evo in evo_table[mon]:
-				run.append(evo)
+				if evo not in run:
+					run.append(evo)
 	else:
 		run.remove(mon)
 
@@ -76,14 +78,16 @@ if len(run) > 0:
 					gl_out[gl_comb] = { "atkv": atkiv, "defv": defiv, "stav": staiv, "lvl": glvl, "dupe": dupe }
 		out = sorted(gl_out.items(), reverse=True)
 		i = 0
-		for trash, data in out:
+		for sp, data in out:
+			if max_print > 0 and i <= max_print:
+				print(colored(mon+' | Rank: '+str(i)+' | Level: '+str(data['lvl'])+' | Stats: '+str(data['atkv'])+' '+str(data['defv'])+' '+str(data['stav']), 'cyan'))
 			if data['dupe'] != True:
 				i += 1
 			color = 'green'
-			if i >= 500:
+			if i >= 100:
 				color = 'yellow'
-			if i >= 1000:
+			if i >= 500:
 				color = 'red'
 			if int(my_atk) == data['atkv'] and int(my_def) == data['defv'] and int(my_sta) == data['stav']:
 				mcp = ' | Max CP: '+str(max_cp) if max_cp < 1500 else ''
-				print(colored(mon+' | Rank: '+str(i)+' | Level: '+str(data['lvl'])+mcp, color))
+				print(colored(mon+' | Rank: '+str(i)+' | Level: '+str(data['lvl'])+' | Stat Product: '+str(sp)+mcp, color))
