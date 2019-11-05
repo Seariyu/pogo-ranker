@@ -164,10 +164,10 @@
         "atk": "99", 
         "def": "78", 
         "evolutions": [
-            "Persian"
+            "Persian (Alola)"
         ], 
         "id": "52", 
-        "name": "Meowth (Alolan)", 
+        "name": "Meowth (Alola)", 
         "sta": "120"
     }, 
     {
@@ -255,7 +255,39 @@
         "def": "219", 
         "evolutions": [], 
         "id": "479", 
-        "name": "Rotom (Forms)", 
+        "name": "Rotom (Frost)", 
+        "sta": "137"
+    }, 
+    {
+        "atk": "204", 
+        "def": "219", 
+        "evolutions": [], 
+        "id": "479", 
+        "name": "Rotom (Fan)", 
+        "sta": "137"
+    }, 
+    {
+        "atk": "204", 
+        "def": "219", 
+        "evolutions": [], 
+        "id": "479", 
+        "name": "Rotom (Mow)", 
+        "sta": "137"
+    }, 
+    {
+        "atk": "204", 
+        "def": "219", 
+        "evolutions": [], 
+        "id": "479", 
+        "name": "Rotom (Wash)", 
+        "sta": "137"
+    }, 
+    {
+        "atk": "204", 
+        "def": "219", 
+        "evolutions": [], 
+        "id": "479", 
+        "name": "Rotom (Heat)", 
         "sta": "137"
     }, 
     {
@@ -550,7 +582,15 @@
         "def": "153", 
         "evolutions": [], 
         "id": "421", 
-        "name": "Cherrim", 
+        "name": "Cherrim (Overcast)", 
+        "sta": "172"
+    }, 
+    {
+        "atk": "170", 
+        "def": "153", 
+        "evolutions": [], 
+        "id": "421", 
+        "name": "Cherrim (Sunny)", 
         "sta": "172"
     }, 
     {
@@ -585,10 +625,10 @@
         "atk": "103", 
         "def": "70", 
         "evolutions": [
-            "Raticate (Alolan)"
+            "Raticate (Alola)"
         ], 
         "id": "19", 
-        "name": "Rattata (Alolan)", 
+        "name": "Rattata (Alola)", 
         "sta": "102"
     }, 
     {
@@ -731,10 +771,10 @@
         "atk": "125", 
         "def": "129", 
         "evolutions": [
-            "Sandslash (Alolan)"
+            "Sandslash (Alola)"
         ], 
         "id": "27", 
-        "name": "Sandshrew (Alolan)", 
+        "name": "Sandshrew (Alola)", 
         "sta": "137"
     }, 
     {
@@ -797,7 +837,7 @@
             "Nidoqueen"
         ], 
         "id": "29", 
-        "name": "Nidoran (Female)", 
+        "name": "Nidoran Female", 
         "sta": "146"
     }, 
     {
@@ -1153,10 +1193,10 @@
         "atk": "108", 
         "def": "81", 
         "evolutions": [
-            "Dugtrio (Alolan)"
+            "Dugtrio (Alola)"
         ], 
         "id": "50", 
-        "name": "Diglett (Alolan)", 
+        "name": "Diglett (Alola)", 
         "sta": "67"
     }, 
     {
@@ -1849,7 +1889,7 @@
         "def": "198", 
         "evolutions": [], 
         "id": "76", 
-        "name": "Golem (Alolan)", 
+        "name": "Golem (Alola)", 
         "sta": "190"
     }, 
     {
@@ -2081,7 +2121,7 @@
         "def": "193", 
         "evolutions": [], 
         "id": "38", 
-        "name": "Ninetales (Alolan)", 
+        "name": "Ninetales (Alola)", 
         "sta": "177"
     }, 
     {
@@ -2109,7 +2149,7 @@
         "def": "153", 
         "evolutions": [], 
         "id": "103", 
-        "name": "Exeggutor (Alolan)", 
+        "name": "Exeggutor (Alola)", 
         "sta": "216"
     }, 
     {
@@ -2213,7 +2253,7 @@
         "def": "154", 
         "evolutions": [], 
         "id": "26", 
-        "name": "Raichu (Alolan)", 
+        "name": "Raichu (Alola)", 
         "sta": "155"
     }, 
     {
@@ -2257,7 +2297,7 @@
         "def": "136", 
         "evolutions": [], 
         "id": "53", 
-        "name": "Persian (Alolan)", 
+        "name": "Persian (Alola)", 
         "sta": "163"
     }, 
     {
@@ -2351,7 +2391,7 @@
             "Nidoking"
         ], 
         "id": "32", 
-        "name": "Nidoran (Male)", 
+        "name": "Nidoran Male", 
         "sta": "130"
     }, 
     {
@@ -2659,10 +2699,20 @@
         "atk": "103", 
         "def": "105", 
         "evolutions": [
-            "Gastrodon"
+            "Gastrodon (West sea)"
         ], 
         "id": "422", 
-        "name": "Shellos", 
+        "name": "Shellos (West sea)", 
+        "sta": "183"
+    }, 
+    {
+        "atk": "103", 
+        "def": "105", 
+        "evolutions": [
+            "Gastrodon (East sea)"
+        ], 
+        "id": "422", 
+        "name": "Shellos (East sea)", 
         "sta": "183"
     }, 
     {
@@ -2735,7 +2785,7 @@
         "def": "142", 
         "evolutions": [], 
         "id": "51", 
-        "name": "Dugtrio (Alolan)", 
+        "name": "Dugtrio (Alola)", 
         "sta": "111"
     }, 
     {
@@ -2834,7 +2884,7 @@
         "atk": "198", 
         "def": "180", 
         "evolutions": [
-            "Porygon-z"
+            "Porygon-Z"
         ], 
         "id": "233", 
         "name": "Porygon2", 
@@ -3187,7 +3237,7 @@
         "def": "136", 
         "evolutions": [
             "Porygon2", 
-            "Porygon-z"
+            "Porygon-Z"
         ], 
         "id": "137", 
         "name": "Porygon", 
@@ -3232,17 +3282,17 @@
         "def": "186", 
         "evolutions": [], 
         "id": "105", 
-        "name": "Marowak (Alolan)", 
+        "name": "Marowak (Alola)", 
         "sta": "155"
     }, 
     {
         "atk": "135", 
         "def": "90", 
         "evolutions": [
-            "Muk (Alolan)"
+            "Muk (Alola)"
         ], 
         "id": "88", 
-        "name": "Grimer (Alolan)", 
+        "name": "Grimer (Alola)", 
         "sta": "190"
     }, 
     {
@@ -3275,10 +3325,10 @@
         "atk": "164", 
         "def": "164", 
         "evolutions": [
-            "Golem (Alolan)"
+            "Golem (Alola)"
         ], 
         "id": "75", 
-        "name": "Graveler (Alolan)", 
+        "name": "Graveler (Alola)", 
         "sta": "146"
     }, 
     {
@@ -3462,7 +3512,7 @@
         "def": "195", 
         "evolutions": [], 
         "id": "28", 
-        "name": "Sandslash (Alolan)", 
+        "name": "Sandslash (Alola)", 
         "sta": "181"
     }, 
     {
@@ -3544,7 +3594,7 @@
         "def": "154", 
         "evolutions": [], 
         "id": "20", 
-        "name": "Raticate (Alolan)", 
+        "name": "Raticate (Alola)", 
         "sta": "181"
     }, 
     {
@@ -3644,13 +3694,33 @@
         "atk": "53", 
         "def": "83", 
         "evolutions": [
-            "Wormadam (Plant)", 
-            "Wormadam (Sandy)", 
+            "Wormadam (Plant)",
+            "Mothim"
+        ], 
+        "id": "412", 
+        "name": "Burmy (Plant)", 
+        "sta": "120"
+    },  
+    {
+        "atk": "53", 
+        "def": "83", 
+        "evolutions": [
+            "Wormadam (Sandy)",
+            "Mothim"
+        ], 
+        "id": "412", 
+        "name": "Burmy (Sandy)", 
+        "sta": "120"
+    },  
+    {
+        "atk": "53", 
+        "def": "83", 
+        "evolutions": [
             "Wormadam (Trash)", 
             "Mothim"
         ], 
         "id": "412", 
-        "name": "Burmy", 
+        "name": "Burmy (Trash)", 
         "sta": "120"
     }, 
     {
@@ -4157,11 +4227,11 @@
         "atk": "132", 
         "def": "132", 
         "evolutions": [
-            "Graveler (Alolan)", 
-            "Golem (Alolan)"
+            "Graveler (Alola)", 
+            "Golem (Alola)"
         ], 
         "id": "74", 
-        "name": "Geodude (Alolan)", 
+        "name": "Geodude (Alola)", 
         "sta": "120"
     }, 
     {
@@ -4244,7 +4314,7 @@
         "def": "172", 
         "evolutions": [], 
         "id": "89", 
-        "name": "Muk (Alolan)", 
+        "name": "Muk (Alola)", 
         "sta": "233"
     }, 
     {
@@ -4252,7 +4322,31 @@
         "def": "139", 
         "evolutions": [], 
         "id": "351", 
-        "name": "Castform", 
+        "name": "Castform (Normal)", 
+        "sta": "172"
+    }, 
+    {
+        "atk": "139", 
+        "def": "139", 
+        "evolutions": [], 
+        "id": "351", 
+        "name": "Castform (Sunny)", 
+        "sta": "172"
+    }, 
+    {
+        "atk": "139", 
+        "def": "139", 
+        "evolutions": [], 
+        "id": "351", 
+        "name": "Castform (Rainy)", 
+        "sta": "172"
+    }, 
+    {
+        "atk": "139", 
+        "def": "139", 
+        "evolutions": [], 
+        "id": "351", 
+        "name": "Castform (Snowy)", 
         "sta": "172"
     }, 
     {
@@ -4411,7 +4505,15 @@
         "def": "143", 
         "evolutions": [], 
         "id": "423", 
-        "name": "Gastrodon", 
+        "name": "Gastrodon (East Sea)", 
+        "sta": "244"
+    }, 
+    {
+        "atk": "169", 
+        "def": "143", 
+        "evolutions": [], 
+        "id": "423", 
+        "name": "Gastrodon (West Sea)", 
         "sta": "244"
     }, 
     {
@@ -4455,10 +4557,10 @@
         "atk": "96", 
         "def": "109", 
         "evolutions": [
-            "Ninetales (Alolan)"
+            "Ninetales (Alola)"
         ], 
         "id": "37", 
-        "name": "Vulpix (Alolan)", 
+        "name": "Vulpix (Alola)", 
         "sta": "116"
     }, 
     {
@@ -5259,19 +5361,28 @@
         "atk": "189", 
         "def": "129", 
         "evolutions": [
-            "Basculin"
+            "Basculin (Red Striped)"
         ], 
         "id": "550", 
-        "name": "Basculin", 
+        "name": "Basculin (Red Striped)", 
+        "sta": "172"
+    }, 
+    {
+        "atk": "189", 
+        "def": "129", 
+        "evolutions": [
+            "Basculin (Blue Striped)"
+        ], 
+        "id": "550", 
+        "name": "Basculin (Blue Striped)", 
         "sta": "172"
     }, 
     {
         "atk": "153", 
         "def": "86", 
         "evolutions": [
-            "Darmanitan", 
-            "Darmanitan", 
-            "Darmanitan"
+            "Darmanitan (Standard)", 
+            "Darmanitan (Zen)"
         ], 
         "id": "554", 
         "name": "Darumaka", 
@@ -5485,11 +5596,19 @@
         "sta": "205"
     }, 
     {
+        "atk": "263", 
+        "def": "114", 
+        "evolutions": [], 
+        "id": "555", 
+        "name": "Darmanitan (Standard)", 
+        "sta": "233"
+    }, 
+    {
         "atk": "243", 
         "def": "202", 
         "evolutions": [], 
         "id": "555", 
-        "name": "Darmanitan", 
+        "name": "Darmanitan (Zen)", 
         "sta": "233"
     }, 
     {
