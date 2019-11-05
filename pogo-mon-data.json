@@ -4962,11 +4962,17 @@
     {
         "atk": "238", 
         "def": "189", 
-        "evolutions": [
-            "Tornadus"
-        ], 
+        "evolutions": [], 
         "id": "641", 
-        "name": "Tornadus", 
+        "name": "Tornadus (Therian)", 
+        "sta": "188"
+    }, 
+    {
+        "atk": "266", 
+        "def": "164", 
+        "evolutions": [], 
+        "id": "641", 
+        "name": "Tornadus (Incarnate)", 
         "sta": "188"
     }, 
     {
@@ -5135,13 +5141,19 @@
         "sta": "163"
     }, 
     {
+        "atk": "250", 
+        "def": "225", 
+        "evolutions": [], 
+        "id": "648", 
+        "name": "Meloetta (Aria)", 
+        "sta": "225"
+    }, 
+    {
         "atk": "269", 
         "def": "188", 
-        "evolutions": [
-            "Meloetta"
-        ], 
+        "evolutions": [], 
         "id": "648", 
-        "name": "Meloetta", 
+        "name": "Meloetta (Pirouette)", 
         "sta": "225"
     }, 
     {
@@ -5866,11 +5878,17 @@
     {
         "atk": "295", 
         "def": "161", 
-        "evolutions": [
-            "Thundurus"
-        ], 
+        "evolutions": [], 
         "id": "642", 
-        "name": "Thundurus", 
+        "name": "Thundurus (Therian)", 
+        "sta": "188"
+    }, 
+    {
+        "atk": "266", 
+        "def": "164", 
+        "evolutions": [], 
+        "id": "642", 
+        "name": "Thundurus (Incarnate)", 
         "sta": "188"
     }, 
     {
@@ -6016,11 +6034,17 @@
     {
         "atk": "260", 
         "def": "192", 
-        "evolutions": [
-            "Keldeo"
-        ], 
+        "evolutions": [], 
         "id": "647", 
-        "name": "Keldeo", 
+        "name": "Keldeo (Ordinary)", 
+        "sta": "209"
+    }, 
+    {
+        "atk": "260", 
+        "def": "192", 
+        "evolutions": [], 
+        "id": "647", 
+        "name": "Keldeo (Resolute)", 
         "sta": "209"
     }, 
     {
@@ -6200,11 +6224,17 @@
     {
         "atk": "289", 
         "def": "179", 
-        "evolutions": [
-            "Landorus"
-        ], 
+        "evolutions": [], 
         "id": "645", 
-        "name": "Landorus", 
+        "name": "Landorus (Therian)", 
+        "sta": "205"
+    }, 
+    {
+        "atk": "261", 
+        "def": "182", 
+        "evolutions": [], 
+        "id": "645", 
+        "name": "Landorus (Incarnate)", 
         "sta": "205"
     }, 
     {
@@ -6260,11 +6290,27 @@
         "sta": "155"
     }, 
     {
+        "atk": "246", 
+        "def": "170", 
+        "evolutions": [], 
+        "id": "646", 
+        "name": "Kyurem (Normal)", 
+        "sta": "245"
+    },
+    {
         "atk": "310", 
         "def": "183", 
         "evolutions": [], 
         "id": "646", 
-        "name": "Kyurem", 
+        "name": "Kyurem (Black)", 
+        "sta": "245"
+    },
+    {
+        "atk": "310", 
+        "def": "183", 
+        "evolutions": [], 
+        "id": "646", 
+        "name": "Kyurem (White)", 
         "sta": "245"
     }
 ]
