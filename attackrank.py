@@ -70,7 +70,7 @@ if len(run) > 0:
 						glvl = lvl
 						gmult = mult
 					ghp = max(10,int(gmult*(staiv + bsta)))
-					gl_comb = float((gmult ** 2) * (atkiv + batk))
+					gl_comb = float(gmult * (atkiv + batk))
 					sp = float((gmult ** 2) * (atkiv + batk) * (defiv + bdef) * ghp)
 					processing.append({ "atkval": gl_comb, "sp": sp, "atkv": atkiv, "defv": defiv, "stav": staiv, "lvl": glvl})
 		s = sorted(processing, key = lambda x: (x['atkval'], x['sp']), reverse=True)
@@ -82,12 +82,12 @@ if len(run) > 0:
 				dupe = True
 			while gl_comb in gl_out.keys():
 				gl_comb = numpy.nextafter(gl_comb, 1)
-			gl_out[gl_comb] = { "atkv": item['atkv'], "defv": item['defv'], "stav": item['stav'], "lvl": item['lvl'], "dupe": dupe}
+			gl_out[gl_comb] = { "atkv": item['atkv'], "defv": item['defv'], "stav": item['stav'], "lvl": item['lvl'], "dupe": dupe, "tatk": item['atkval']}
 		out = sorted(gl_out.items(), reverse=True)
 		i = 0
 		for sp, data in out:
 			if max_print > 0 and i <= max_print:
-				print(colored(mon+' | Rank: '+str(i)+' | Level: '+str(data['lvl'])+' | Stats: '+str(data['atkv'])+' '+str(data['defv'])+' '+str(data['stav']), 'cyan'))
+				print(colored(mon+' | Rank: '+str(i+1)+' | Level: '+str(data['lvl'])+' | Stats: '+str(data['atkv'])+' '+str(data['defv'])+' '+str(data['stav'])+' | Attack: '+str(data['tatk'])+' | Stat Product: '+str(sp), 'cyan'))
 			if data['dupe'] != True:
 				i += 1
 			color = 'green'
@@ -97,4 +97,4 @@ if len(run) > 0:
 				color = 'red'
 			if int(my_atk) == data['atkv'] and int(my_def) == data['defv'] and int(my_sta) == data['stav']:
 				mcp = ' | Max CP: '+str(max_cp) if max_cp < 1500 else ''
-				print(colored(mon+' | Rank: '+str(i)+' | Level: '+str(data['lvl'])+' | Stat Product: '+str(sp)+mcp, color))
+				print(colored(mon+' | Rank: '+str(i)+' | Level: '+str(data['lvl'])+' | Attack: '+str(data['tatk'])+' | Stat Product: '+str(sp)+mcp, color))

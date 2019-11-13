@@ -150,6 +150,24 @@
         "sta": "186"
     }, 
     {
+        "atk": "142", 
+        "def": "128", 
+        "evolutions": [
+            "Obstagoon"
+        ], 
+        "id": "264", 
+        "name": "Linoone (Galar)", 
+        "sta": "186"
+    }, 
+    {
+        "atk": "180", 
+        "def": "194", 
+        "evolutions": [], 
+        "id": "862", 
+        "name": "Obstagoon", 
+        "sta": "212"
+    }, 
+    {
         "atk": "75", 
         "def": "79", 
         "evolutions": [
@@ -364,6 +382,24 @@
         "id": "83", 
         "name": "Farfetchd", 
         "sta": "141"
+    }, 
+    {
+        "atk": "174", 
+        "def": "114", 
+        "evolutions": [
+            "Sirfetchd"
+        ], 
+        "id": "83", 
+        "name": "Farfetchd (Galar)", 
+        "sta": "141"
+    }, 
+    {
+        "atk": "248", 
+        "def": "176", 
+        "evolutions": [], 
+        "id": "865", 
+        "name": "Sirfetchd", 
+        "sta": "158"
     }, 
     {
         "atk": "197", 
@@ -718,6 +754,24 @@
         "id": "52", 
         "name": "Meowth", 
         "sta": "120"
+    }, 
+    {
+        "atk": "115", 
+        "def": "92", 
+        "evolutions": [
+            "Perrserker"
+        ], 
+        "id": "52", 
+        "name": "Meowth (Galar)", 
+        "sta": "137"
+    }, 
+    {
+        "atk": "195", 
+        "def": "162", 
+        "evolutions": [], 
+        "id": "863", 
+        "name": "Perrserker", 
+        "sta": "172"
     }, 
     {
         "atk": "117", 
@@ -1168,6 +1222,14 @@
         "evolutions": [], 
         "id": "110", 
         "name": "Weezing", 
+        "sta": "163"
+    }, 
+    {
+        "atk": "174", 
+        "def": "197", 
+        "evolutions": [], 
+        "id": "110", 
+        "name": "Weezing (Galar)", 
         "sta": "163"
     }, 
     {
@@ -1903,6 +1965,16 @@
         "sta": "137"
     }, 
     {
+        "atk": "170", 
+        "def": "127", 
+        "evolutions": [
+            "Rapidash (Galar)"
+        ], 
+        "id": "77", 
+        "name": "Ponyta (Galar)", 
+        "sta": "137"
+    }, 
+    {
         "atk": "158", 
         "def": "126", 
         "evolutions": [
@@ -2461,6 +2533,24 @@
         "id": "222", 
         "name": "Corsola", 
         "sta": "146"
+    }, 
+    {
+        "atk": "116", 
+        "def": "182", 
+        "evolutions": [
+            "Cursola"
+        ], 
+        "id": "222", 
+        "name": "Corsola (Galar)", 
+        "sta": "155"
+    }, 
+    {
+        "atk": "253", 
+        "def": "182", 
+        "evolutions": [], 
+        "id": "864", 
+        "name": "Cursola", 
+        "sta": "155"
     }, 
     {
         "atk": "134", 
@@ -3616,6 +3706,16 @@
         "sta": "116"
     }, 
     {
+        "atk": "58", 
+        "def": "80", 
+        "evolutions": [
+            "Linoone (Galar)"
+        ], 
+        "id": "263", 
+        "name": "Zigzagoon (Galar)", 
+        "sta": "116"
+    }, 
+    {
         "atk": "193", 
         "def": "310", 
         "evolutions": [], 
@@ -4216,6 +4316,24 @@
         "sta": "120"
     }, 
     {
+        "atk": "183", 
+        "def": "169", 
+        "evolutions": [
+            "Mr. Rime"
+        ], 
+        "id": "122", 
+        "name": "Mr. Mime (Galar)", 
+        "sta": "137"
+    }, 
+    {
+        "atk": "212", 
+        "def": "179", 
+        "evolutions": [], 
+        "id": "866", 
+        "name": "Mr. Rime", 
+        "sta": "190"
+    }, 
+    {
         "atk": "175", 
         "def": "87", 
         "evolutions": [], 
@@ -4413,6 +4531,14 @@
         "evolutions": [], 
         "id": "78", 
         "name": "Rapidash", 
+        "sta": "163"
+    }, 
+    {
+        "atk": "207", 
+        "def": "162", 
+        "evolutions": [], 
+        "id": "78", 
+        "name": "Rapidash (Galar)", 
         "sta": "163"
     }, 
     {
@@ -5213,6 +5339,14 @@
         "sta": "151"
     }, 
     {
+        "atk": "163", 
+        "def": "237", 
+        "evolutions": [], 
+        "id": "867", 
+        "name": "Runegrigus", 
+        "sta": "151"
+    }, 
+    {
         "atk": "156", 
         "def": "130", 
         "evolutions": [
@@ -5281,6 +5415,16 @@
         ], 
         "id": "562", 
         "name": "Yamask", 
+        "sta": "116"
+    }, 
+    {
+        "atk": "95", 
+        "def": "141", 
+        "evolutions": [
+            "Runegrigus"
+        ], 
+        "id": "562", 
+        "name": "Yamask (Galar)", 
         "sta": "116"
     }, 
     {
@@ -5398,6 +5542,17 @@
         ], 
         "id": "554", 
         "name": "Darumaka", 
+        "sta": "172"
+    }, 
+    {
+        "atk": "153", 
+        "def": "86", 
+        "evolutions": [
+            "Darmanitan (Galar Standard)", 
+            "Darmanitan (Galar Zen)"
+        ], 
+        "id": "554", 
+        "name": "Darumaka (Galar)", 
         "sta": "172"
     }, 
     {
@@ -5624,6 +5779,22 @@
         "sta": "233"
     }, 
     {
+        "atk": "263", 
+        "def": "114", 
+        "evolutions": [], 
+        "id": "555", 
+        "name": "Darmanitan (Galar Standard)", 
+        "sta": "233"
+    }, 
+    {
+        "atk": "323", 
+        "def": "123", 
+        "evolutions": [], 
+        "id": "555", 
+        "name": "Darmanitan (Galar Zen)", 
+        "sta": "233"
+    }, 
+    {
         "atk": "159", 
         "def": "116", 
         "evolutions": [
@@ -5767,6 +5938,14 @@
         "evolutions": [], 
         "id": "618", 
         "name": "Stunfisk", 
+        "sta": "240"
+    }, 
+    {
+        "atk": "144", 
+        "def": "171", 
+        "evolutions": [], 
+        "id": "618", 
+        "name": "Stunfisk (Galar)", 
         "sta": "240"
     }, 
     {

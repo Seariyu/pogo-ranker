@@ -80,7 +80,7 @@ if len(run) > 0:
 		i = 0
 		for sp, data in out:
 			if max_print > 0 and i <= max_print:
-				print(colored(mon+' | Rank: '+str(i)+' | Level: '+str(data['lvl'])+' | Stats: '+str(data['atkv'])+' '+str(data['defv'])+' '+str(data['stav']), 'cyan'))
+				print(colored(mon+' | Rank: '+str(i+1)+' | Level: '+str(data['lvl'])+' | Stats: '+str(data['atkv'])+' '+str(data['defv'])+' '+str(data['stav']), 'cyan'))
 			if data['dupe'] != True:
 				i += 1
 			color = 'green'
