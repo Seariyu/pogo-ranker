@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Whiscash', 105.781339623, 105.781339623, 108.62926259, 111.062984],
+['Sealeo', 106.320899794, 106.320899794, 108.671353764, 111.38738325],
+['Farfetchd', 97.99720124, 104.31960132, 109.85170139, 109.85170139],
+['Amoonguss', 106.59050044, 107.278181088, 109.6746967, 112.4512713],
+['Magcargo', 108.27165225, 108.27165225, 110.922806304, 113.77236065],
+['Bronzong', 108.205308, 108.606983457, 111.404264976, 114.003603753],
+['Cradily', 103.210363161, 103.53706784, 105.908673309, 108.30522228],
+['Noctowl', 103.20509466, 103.40892442, 105.75166623, 108.2916],
+['Quagsire', 108.401079392, 109.114244388, 111.680633368, 114.187803699],
+['Lanturn', 102.278646258, 102.278646258, 105.08080095, 107.44639992],
+['Claydol', 100.7158726, 101.43527169, 103.756731936, 106.0326315],
+['Altaria', 100.556264436, 101.269429432, 103.598482269, 105.932337082],
+['Lairon', 110.685110334, 111.385649007, 114.187803699, 116.817019872],
+['Slowbro', 110.90238201, 112.155082341, 114.05601594, 116.92204239],
+['Slowking', 110.90238201, 112.155082341, 114.05601594, 116.92204239],
+
+    ], true);
+
+    var options = {
+      legend:'none'
+    };
+
+    var chart = new google.visualization.CandlestickChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+  }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 3000px; height: 1080px;"></div>
+  </body>
+</html>

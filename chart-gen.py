@@ -22,7 +22,11 @@ run = [mon]
 evo_table = {}
 pokemon_data = {}
 processing = []
+unsorted_output = []
 output_data = ""
+max_iatk = 0.0
+min_iatk = 10000000000.0
+my_avg = 0.0
 
 with open('pogo-mon-data.json') as json_file:  
     data = json.load(json_file)
@@ -52,16 +56,22 @@ with open('pogo-mon-data.json') as json_file:
 	    	s = sorted(processing, key = lambda x: (x['sp'], x['atkval']), reverse=True)
 	    	i = 0
 	    	for data in s:
+	    		i += 1
 	    		if i >= lim:
 	    			break
-	    		i += 1
+	    		if i <= 100:
+	    			max_iatk = data['atkval'] if data['atkval'] > max_iatk else max_iatk
+	    			min_iatk = data['atkval'] if data['atkval'] < min_iatk else min_iatk
+	    			my_avg += data['atkval']
 	    		my_max_atk = data['atkval'] if data['atkval'] > my_max_atk else my_max_atk
 	    		my_min_atk = data['atkval'] if data['atkval'] < my_min_atk else my_min_atk
+	    	output_data += "['"+p['name']+"', "+str(my_min_atk)+", "+str(min_iatk)+", "+str(max_iatk)+", "+str(my_max_atk)+"],\n"
+	    	my_avg = my_avg / 100.0
 
 with open('pogo-mon-data.json') as json_file:  
     data = json.load(json_file)
     for p in data:
-    	if p['name'] not in cup:
+    	if p['name'] not in cup or str(p['name']).title() == mon:
     		continue
     	batk = int(p['atk'])
     	bdef = int(p['def'])
@@ -70,7 +80,7 @@ with open('pogo-mon-data.json') as json_file:
     	evos = p['evolutions']
 
     	max_cp = max(10,int( 0.6245741058 * (batk+15) * math.sqrt((bdef+15)*(bsta+15))/10))
-    	if max_cp < min_cp_g and not int(num) in whitelist_g and not str(p['name']).title() == mon:
+    	if max_cp < min_cp_g and not int(num) in whitelist_g:
     		continue
 
     	gl_out = { }
@@ -105,6 +115,7 @@ with open('pogo-mon-data.json') as json_file:
 					gl_out[gl_comb] = { "atkv": atkiv, "defv": defiv, "stav": staiv, "lvl": glvl, "atkval": atkval, "sp": mon_sp, "dupe": dupe }
     	out = sorted(gl_out.items(), reverse=True)
     	i = 0
+    	mean = 0.0
     	for sp, data in out:
     		if i >= lim:
     			break
@@ -114,8 +125,13 @@ with open('pogo-mon-data.json') as json_file:
     		if i <= 100:
     			max_iatk = data['atkval'] if data['atkval'] > max_iatk else max_iatk
     			min_iatk = data['atkval'] if data['atkval'] < min_iatk else min_iatk
-    	if ( min_atk >= my_min_atk and min_atk <= my_max_atk ) or ( max_atk <= my_max_atk and max_atk >= my_min_atk ) or str(p['name']).title() == mon:
-    		output_data += "['"+p['name']+"', "+str(min_atk)+", "+str(min_iatk)+", "+str(max_iatk)+", "+str(max_atk)+"],\n"
+    			mean += data['atkval']
+    	if ( min_atk >= my_min_atk and min_atk <= my_max_atk ) or ( max_atk <= my_max_atk and max_atk >= my_min_atk ):
+    		mean = mean / 100.0
+    		unsorted_output.append({ "name": p['name'], "1": str(min_atk), "2": str(min_iatk), "3": str(max_iatk), "4": str(max_atk), "diff": abs(mean - my_avg) })
+s = sorted(unsorted_output, key = lambda x: (x['diff']), reverse=False)
+for p in s:
+	output_data += "['"+p['name']+"', "+p['1']+", "+p['2']+", "+p['3']+", "+p['4']+"],\n"
 
 
 output ="""<html>
