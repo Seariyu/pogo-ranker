@@ -16,9 +16,9 @@ my_def = int(sys.argv[3])
 my_sta = int(sys.argv[4])
 
 if len(sys.argv) > 5:
-    print_all = int(sys.argv[5])
+    max_print = int(sys.argv[5])
 else:
-	print_all = 0
+	max_print = 0
 
 batk = 0
 run = [mon]
@@ -57,8 +57,6 @@ if len(run) > 0:
 		if max_cp < 1100:
 			continue
 		gl_out = { }
-		spr_out = { }
-		processing = []
 		for atkiv in range(16):
 			for defiv in range(16):
 				for staiv in range(16):
@@ -71,88 +69,41 @@ if len(run) > 0:
 						glvl = lvl
 						gmult = mult
 					ghp = max(10,int(gmult*(staiv + bsta)))
-					gl_comb = float(gmult * (atkiv + batk))
+					atkval = float(gmult * (atkiv + batk))
 					sp = float((gmult ** 2) * (atkiv + batk) * (defiv + bdef) * ghp)
-					processing.append({ "atkval": gl_comb, "sp": sp, "atkv": atkiv, "defv": defiv, "stav": staiv, "lvl": glvl})
-		s = sorted(processing, key = lambda x: (x['atkval'], x['sp']), reverse=True)
-		for item in s:
-			dupe = False
-			gl_comb = item['atkval'] * 10000000
-			gl_comb = gl_comb + item['sp']
-			if gl_comb in gl_out.keys():
-				dupe = True
-			while gl_comb in gl_out.keys():
-				gl_comb = numpy.nextafter(gl_comb, 1)
-			gl_out[gl_comb] = { "atkv": item['atkv'], "defv": item['defv'], "stav": item['stav'], "sp": item['sp'], "lvl": item['lvl'], "dupe": dupe, "tatk": item['atkval']}
-			dupe = False
-			gl_comb = item['sp']
-			if gl_comb in gl_out.keys():
-				dupe = True
-			while gl_comb in gl_out.keys():
-				gl_comb = numpy.nextafter(gl_comb, 1)
-			spr_out[gl_comb] = { "atkv": item['atkv'], "defv": item['defv'], "stav": item['stav'], "sp": item['sp'], "lvl": item['lvl'], "dupe": dupe, "tatk": item['atkval']}
-		spr_srt = sorted(spr_out.items(), reverse=True)
-		out = sorted(gl_out.items(), reverse=False)
+					gl_comb = sp + atkval
+					dupe = False
+					if gl_comb in gl_out.keys():
+						dupe = True
+					while gl_comb in gl_out.keys():
+						gl_comb = numpy.nextafter(gl_comb, 1)
+					gl_out[gl_comb] = { "atkv": atkiv, "defv": defiv, "stav": staiv, "lvl": glvl, "sp": sp, "atkval": atkval, "dupe": dupe }
+		out = sorted(gl_out.items(), reverse=True)
+		top_sp = out[:100]
+		gl_out = { }
 		i = 0
-		j = 0
-		k = 0
-		pj = 31
-		ratk = 0.0
-		msp = 0.0
-		best = ''
-		trough = False
-		bivs = ''
-		bsp = 0.0
-		bspa = 0.0
-		bbsp = 0.0
-		bbspa = 0.0
-		asum = 0.0
-		spsum = 0.0
-		for idx, data in out:
-			k += 1
-			asum += data['tatk']
-			spsum += data['sp']
-			atkst = data['tatk']
-			if data['sp'] > bbsp:
-				bbsp = data['sp']
-				bbspa = data['tatk']
-				bblvl = data['lvl']
-				bbstats = 'Stats: '+str(data['atkv'])+' '+str(data['defv'])+' '+str(data['stav'])
-				bband = i
-			if ratk != atkst:
+		for sp, data in top_sp:
+			i += 1
+			dupe = False
+			gl_comb = data['atkval'] * 10000000
+			gl_comb = gl_comb + data['sp']
+			if gl_comb in gl_out.keys():
+				dupe = True
+			while gl_comb in gl_out.keys():
+				gl_comb = numpy.nextafter(gl_comb, 1)
+			gl_out[gl_comb] = { "atkv": data['atkv'], "defv": data['defv'], "stav": data['stav'], "lvl": data['lvl'], "sp": data['sp'], "atkval": data['atkval'], "dupe": dupe, "spr": i }
+		i = 0
+		out = sorted(gl_out.items(), reverse=True)
+		for sp, data in out:
+			if max_print > 0 and i <= max_print:
+				print(colored(mon+' | Mirror Rank: '+str(i)+' | SP Rank: '+str(data['spr'])+' | Level: '+str(data['lvl'])+' | IVs: '+str(data['atkv'])+' '+str(data['defv'])+' '+str(data['stav'])+' | Attack Stat: '+str(data['atkval']), 'cyan'))
+			if data['dupe'] != True:
 				i += 1
-				trough = True if i > 5 and j < 25 and pj < 25 and k > 50 else False
-				color = 'green' if trough else 'yellow'
-				pj = j
-				if print_all != 0 and ratk > 0:
-					print(colored(mon+' | Band: '+str(i)+' | Attack: '+str(data['tatk'])+' | Count: '+str(j)+' | Max Stat Product: '+str(msp)+best, color))
-				j = 0
-				ratk = atkst
-				msp = data['sp']
-				best = ' | Level: '+str(data['lvl'])+' | Stats: '+str(data['atkv'])+' '+str(data['defv'])+' '+str(data['stav'])
-				if trough:
-					if bbsp > bsp:
-						bsp = bbsp
-						bspa = bbspa
-						rlu = bbstats
-						bivs = colored(mon+' | Band: '+str(i)+' | Attack: '+str(data['tatk'])+' | Stat Product: '+str(bbsp)+' | Level: '+str(bblvl)+' | '+bbstats, 'white')
-				bbsp = 0.0
-				bbspa = 0.0
-			if data['sp'] > msp:
-				msp = data['sp']
-				best = ' | Level: '+str(data['lvl'])+' | Stats: '+str(data['atkv'])+' '+str(data['defv'])+' '+str(data['stav'])
-			j += 1
+			color = 'green'
+			if i >= 100:
+				color = 'yellow'
+			if i >= 500:
+				color = 'red'
 			if int(my_atk) == data['atkv'] and int(my_def) == data['defv'] and int(my_sta) == data['stav']:
 				mcp = ' | Max CP: '+str(max_cp) if max_cp < 1500 else ''
-				print(colored(mon+' | Band: '+str(bband)+' | Attack: '+str(data['tatk'])+' | Stat Product: '+str(data['sp'])+mcp, 'cyan'))
-		print('Total Bands: '+str(i))
-		l = 0
-		for sp, rdata in spr_srt:
-			l += 1
-			if rlu == 'Stats: '+str(rdata['atkv'])+' '+str(rdata['defv'])+' '+str(rdata['stav']):
-				rank = l
-				break
-		print(bivs+colored(' | SP Rank : '+str(rank), 'white'))
-		avg_atk = asum / k
-		avg_sp = spsum / k
-		print(colored('Average Attack: '+str(avg_atk)+' | Average Stat Product: '+str(avg_sp), 'cyan'))
+				print(colored(mon+' | Mirror Rank: '+str(i)+' | SP Rank: '+str(data['spr'])+' | Level: '+str(data['lvl'])+' | Stat Product: '+str(sp)+' | Attack Stat: '+str(data['atkval'])+mcp, color))

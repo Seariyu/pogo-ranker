@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Swellow', 133.80823074, 134.23073712, 137.40522619, 140.335532719],
+['Yanma', 121.70620154, 128.02860162, 133.56070169, 133.56070169],
+['Victreebel', 132.431707397, 132.61516065, 136.12261104, 139.40179726],
+['Weepinbell', 135.93160172, 135.93160172, 140.98682775, 145.66042425],
+['Exeggutor', 133.1873122, 133.874612649, 136.83554385, 140.194873332],
+['Magnezone', 131.08866022, 133.001677088, 136.0210848, 138.8548574],
+['Gyarados', 126.64197621, 128.604676779, 131.317855614, 134.12293683],
+['Vileplume', 125.738071095, 126.56656026, 129.4118959, 132.431707397],
+['Venomoth', 124.25171335, 124.25171335, 127.94604201, 131.000731851],
+['Infernape', 134.269776708, 135.479414336, 138.74545776, 141.60417138],
+['Roselia', 136.661827674, 136.661827674, 139.83241284, 142.82456139],
+['Mamoswine', 134.031034449, 134.031034449, 138.24896519, 141.08529942],
+['Heracross', 131.32518536, 132.62055768, 135.598320108, 139.045735026],
+['Toxicroak', 133.45879869, 133.698996463, 137.0997313, 140.35103712],
+['Charizard', 129.84819693, 131.01275475, 133.9241493, 137.41782276],
+['Houndoom', 137.12323296, 137.73539025, 141.22305522, 144.46912044],
+['Monferno', 124.86740158, 128.02860162, 133.3882849, 136.72190173],
+['Shiftry', 130.810438052, 130.887126, 134.254734, 137.59531384],
+['Sneasel', 131.8872935, 132.401809197, 136.214514236, 139.25618937],
+['Durant', 132.455320266, 132.83813193, 135.96506721, 139.57186212],
+
+    ], true);
+
+    var options = {
+      legend:'none'
+    };
+
+    var chart = new google.visualization.CandlestickChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+  }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 1920px; height: 1080px;"></div>
+  </body>
+</html>

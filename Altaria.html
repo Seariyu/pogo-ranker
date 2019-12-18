@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Claydol', 100.7158726, 101.43527169, 103.756731936, 106.0326315],
+['Altaria', 100.556264436, 101.269429432, 103.598482269, 105.932337082],
+['Whiscash', 105.781339623, 105.781339623, 108.62926259, 111.062984],
+['Noctowl', 103.20509466, 103.40892442, 105.75166623, 108.2916],
+['Lanturn', 102.278646258, 102.278646258, 105.08080095, 107.44639992],
+['Cradily', 103.210363161, 103.53706784, 105.908673309, 108.30522228],
+
+    ], true);
+
+    var options = {
+      legend:'none'
+    };
+
+    var chart = new google.visualization.CandlestickChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+  }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 1920px; height: 1080px;"></div>
+  </body>
+</html>
