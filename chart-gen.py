@@ -161,5 +161,5 @@ output ="""<html>
   </body>
 </html>"""
 
-outF = open(mon+'.html', 'w')
+outF = open('charts/'+mon+'.html', 'w')
 outF.write(output)
