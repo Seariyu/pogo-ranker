@@ -14,7 +14,8 @@
         "atk": "130", 
         "def": "105", 
         "evolutions": [
-            "Lopunny"
+            "Lopunny",
+            "Mega Lopunny"
         ], 
         "id": "427", 
         "name": "Buneary", 
@@ -99,9 +100,19 @@
     {
         "atk": "246", 
         "def": "120", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Absol"
+        ], 
         "id": "359", 
         "name": "Absol", 
+        "sta": "163"
+    }, 
+    {
+        "atk": "314", 
+        "def": "130", 
+        "evolutions": [], 
+        "id": "359", 
+        "name": "Mega Absol", 
         "sta": "163"
     }, 
     {
@@ -137,10 +148,20 @@
     {
         "atk": "223", 
         "def": "169", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Sceptile"
+        ], 
         "id": "254", 
         "name": "Sceptile", 
         "sta": "172"
+    },  
+    {
+        "atk": "292", 
+        "def": "169", 
+        "evolutions": [], 
+        "id": "254", 
+        "name": "Mega Sceptile", 
+        "sta": "157"
     }, 
     {
         "atk": "142", 
@@ -220,9 +241,19 @@
     {
         "atk": "155", 
         "def": "141", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Mawile"
+        ], 
         "id": "303", 
         "name": "Mawile", 
+        "sta": "137"
+    }, 
+    {
+        "atk": "188", 
+        "def": "217", 
+        "evolutions": [], 
+        "id": "303", 
+        "name": "Mega Mawile", 
         "sta": "137"
     }, 
     {
@@ -254,16 +285,27 @@
     {
         "atk": "243", 
         "def": "83", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Sharpedo"
+        ], 
         "id": "319", 
         "name": "Sharpedo", 
+        "sta": "172"
+    }, 
+    {
+        "atk": "289", 
+        "def": "144", 
+        "evolutions": [], 
+        "id": "319", 
+        "name": "Mega Sharpedo", 
         "sta": "172"
     }, 
     {
         "atk": "152", 
         "def": "83", 
         "evolutions": [
-            "Houndoom"
+            "Houndoom",
+            "Mega Houndoom"
         ], 
         "id": "228", 
         "name": "Houndour", 
@@ -312,10 +354,20 @@
     {
         "atk": "198", 
         "def": "257", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Aggron"
+        ], 
         "id": "306", 
         "name": "Aggron", 
         "sta": "172"
+    }, 
+    {
+        "atk": "225", 
+        "def": "301", 
+        "evolutions": [], 
+        "id": "306", 
+        "name": "Mega Aggron", 
+        "sta": "157"
     }, 
     {
         "atk": "177", 
@@ -357,10 +409,20 @@
     {
         "atk": "211", 
         "def": "169", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Ampharos"
+        ], 
         "id": "181", 
         "name": "Ampharos", 
         "sta": "207"
+    },  
+    {
+        "atk": "268", 
+        "def": "185", 
+        "evolutions": [], 
+        "id": "181", 
+        "name": "Mega Ampharos", 
+        "sta": "189"
     }, 
     {
         "atk": "207", 
@@ -450,7 +512,8 @@
         "atk": "172", 
         "def": "125", 
         "evolutions": [
-            "Garchomp"
+            "Garchomp", 
+            "Mega Garchomp"
         ], 
         "id": "444", 
         "name": "Gabite", 
@@ -694,7 +757,8 @@
         "def": "95", 
         "evolutions": [
             "Glalie", 
-            "Froslass"
+            "Froslass",
+            "Mega Glalie"
         ], 
         "id": "361", 
         "name": "Snorunt", 
@@ -801,7 +865,9 @@
         "def": "90", 
         "evolutions": [
             "Gardevoir", 
-            "Gallade"
+            "Gallade", 
+            "Mega Gardevoir", 
+            "Mega Gallade"
         ], 
         "id": "281", 
         "name": "Kirlia", 
@@ -1025,7 +1091,8 @@
         "def": "94", 
         "evolutions": [
             "Grovyle", 
-            "Sceptile"
+            "Sceptile", 
+            "Mega Sceptile"
         ], 
         "id": "252", 
         "name": "Treecko", 
@@ -1069,7 +1136,8 @@
         "atk": "119", 
         "def": "79", 
         "evolutions": [
-            "Camerupt"
+            "Camerupt",
+            "Mega Camerupt"
         ], 
         "id": "322", 
         "name": "Numel", 
@@ -1104,10 +1172,20 @@
     {
         "atk": "228", 
         "def": "246", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Latias"
+        ], 
         "id": "380", 
         "name": "Latias", 
         "sta": "190"
+    }, 
+    {
+        "atk": "263", 
+        "def": "271", 
+        "evolutions": [], 
+        "id": "380", 
+        "name": "Mega Latias", 
+        "sta": "173"
     }, 
     {
         "atk": "140", 
@@ -1146,9 +1224,19 @@
     {
         "atk": "148", 
         "def": "272", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Steelix"
+        ], 
         "id": "208", 
         "name": "Steelix", 
+        "sta": "181"
+    }, 
+    {
+        "atk": "212", 
+        "def": "327", 
+        "evolutions": [], 
+        "id": "208", 
+        "name": "Mega Steelix", 
         "sta": "181"
     }, 
     {
@@ -1190,17 +1278,37 @@
     {
         "atk": "162", 
         "def": "162", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Glalie"
+        ], 
         "id": "362", 
         "name": "Glalie", 
         "sta": "190"
     }, 
     {
+        "atk": "252", 
+        "def": "168", 
+        "evolutions": [], 
+        "id": "362", 
+        "name": "Mega Glalie", 
+        "sta": "190"
+    }, 
+    {
         "atk": "194", 
         "def": "136", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Camerupt"
+        ], 
         "id": "323", 
         "name": "Camerupt", 
+        "sta": "172"
+    }, 
+    {
+        "atk": "253", 
+        "def": "183", 
+        "evolutions": [], 
+        "id": "323", 
+        "name": "Mega Camerupt", 
         "sta": "172"
     }, 
     {
@@ -1224,10 +1332,20 @@
     {
         "atk": "237", 
         "def": "195", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Gallade"
+        ], 
         "id": "475", 
         "name": "Gallade", 
         "sta": "169"
+    }, 
+    {
+        "atk": "297", 
+        "def": "209", 
+        "evolutions": [], 
+        "id": "475", 
+        "name": "Mega Gallade", 
+        "sta": "154"
     }, 
     {
         "atk": "137", 
@@ -1260,7 +1378,8 @@
         "def": "79", 
         "evolutions": [
             "Flaaffy", 
-            "Ampharos"
+            "Ampharos",
+            "Mega Ampharos"
         ], 
         "id": "179", 
         "name": "Mareep", 
@@ -1333,7 +1452,8 @@
         "def": "141", 
         "evolutions": [
             "Lairon", 
-            "Aggron"
+            "Aggron", 
+            "Mega Aggron"
         ], 
         "id": "304", 
         "name": "Aron", 
@@ -1382,9 +1502,19 @@
     {
         "atk": "178", 
         "def": "158", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Abomasnow"
+        ], 
         "id": "460", 
         "name": "Abomasnow", 
+        "sta": "207"
+    }, 
+    {
+        "atk": "240", 
+        "def": "191", 
+        "evolutions": [], 
+        "id": "460", 
+        "name": "Mega Abomasnow", 
         "sta": "207"
     }, 
     {
@@ -1427,7 +1557,8 @@
         "atk": "172", 
         "def": "120", 
         "evolutions": [
-            "Sceptile"
+            "Sceptile", 
+            "Mega Sceptile"
         ], 
         "id": "253", 
         "name": "Grovyle", 
@@ -1465,7 +1596,8 @@
         "def": "93", 
         "evolutions": [
             "Marshtomp", 
-            "Swampert"
+            "Swampert", 
+            "Mega Swampert"
         ], 
         "id": "258", 
         "name": "Mudkip", 
@@ -1518,9 +1650,19 @@
     {
         "atk": "141", 
         "def": "201", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Altaria"
+        ], 
         "id": "334", 
         "name": "Altaria", 
+        "sta": "181"
+    }, 
+    {
+        "atk": "222", 
+        "def": "218", 
+        "evolutions": [], 
+        "id": "334", 
+        "name": "Mega Altaria", 
         "sta": "181"
     }, 
     {
@@ -1576,10 +1718,20 @@
     {
         "atk": "268", 
         "def": "212", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Latios"
+        ], 
         "id": "381", 
         "name": "Latios", 
         "sta": "190"
+    }, 
+    {
+        "atk": "305", 
+        "def": "219", 
+        "evolutions": [], 
+        "id": "381", 
+        "name": "Mega Latios", 
+        "sta": "173"
     }, 
     {
         "atk": "141", 
@@ -1678,7 +1830,9 @@
         "evolutions": [
             "Kirlia", 
             "Gardevoir", 
-            "Gallade"
+            "Gallade", 
+            "Mega Gardevoir", 
+            "Mega Gallade"
         ], 
         "id": "280", 
         "name": "Ralts", 
@@ -1733,7 +1887,8 @@
         "atk": "29", 
         "def": "85", 
         "evolutions": [
-            "Gyarados"
+            "Gyarados",
+            "Mega Gyarados"
         ], 
         "id": "129", 
         "name": "Magikarp", 
@@ -1885,7 +2040,8 @@
         "atk": "218", 
         "def": "170", 
         "evolutions": [
-            "Scizor"
+            "Scizor",
+            "Mega Scizor"
         ], 
         "id": "123", 
         "name": "Scyther", 
@@ -1965,10 +2121,20 @@
     {
         "atk": "237", 
         "def": "186", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Gyarados"
+        ], 
         "id": "130", 
         "name": "Gyarados", 
         "sta": "216"
+    }, 
+    {
+        "atk": "266", 
+        "def": "225", 
+        "evolutions": [], 
+        "id": "130", 
+        "name": "Mega Gyarados", 
+        "sta": "197"
     }, 
     {
         "atk": "45", 
@@ -2121,9 +2287,19 @@
     {
         "atk": "156", 
         "def": "194", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Lopunny"
+        ], 
         "id": "428", 
         "name": "Lopunny", 
+        "sta": "163"
+    }, 
+    {
+        "atk": "282", 
+        "def": "214", 
+        "evolutions": [], 
+        "id": "428", 
+        "name": "Mega Lopunny", 
         "sta": "163"
     }, 
     {
@@ -2131,7 +2307,8 @@
         "def": "132", 
         "evolutions": [
             "Metang", 
-            "Metagross"
+            "Metagross",
+            "Mega Metagross"
         ], 
         "id": "374", 
         "name": "Beldum", 
@@ -2159,7 +2336,8 @@
         "atk": "171", 
         "def": "39", 
         "evolutions": [
-            "Sharpedo"
+            "Sharpedo",
+            "Mega Sharpedo"
         ], 
         "id": "318", 
         "name": "Carvanha", 
@@ -2196,7 +2374,8 @@
         "def": "93", 
         "evolutions": [
             "Pupitar", 
-            "Tyranitar"
+            "Tyranitar", 
+            "Mega Tyranitar"
         ], 
         "id": "246", 
         "name": "Larvitar", 
@@ -2205,9 +2384,19 @@
     {
         "atk": "121", 
         "def": "152", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Medicham"
+        ], 
         "id": "308", 
         "name": "Medicham", 
+        "sta": "155"
+    }, 
+    {
+        "atk": "205", 
+        "def": "179", 
+        "evolutions": [], 
+        "id": "308", 
+        "name": "Mega Medicham", 
         "sta": "155"
     }, 
     {
@@ -2235,7 +2424,7 @@
         "def": "181", 
         "evolutions": [], 
         "id": "94", 
-        "name": "Gengar", 
+        "name": "Mega Gengar", 
         "sta": "141"
     }, 
     {
@@ -2339,9 +2528,19 @@
     {
         "atk": "215", 
         "def": "127", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Manectric"
+        ], 
         "id": "310", 
         "name": "Manectric", 
+        "sta": "172"
+    }, 
+    {
+        "atk": "286", 
+        "def": "179", 
+        "evolutions": [], 
+        "id": "310", 
+        "name": "Mega Manectric", 
         "sta": "172"
     }, 
     {
@@ -2425,7 +2624,8 @@
         "atk": "123", 
         "def": "78", 
         "evolutions": [
-            "Manectric"
+            "Manectric",
+            "Mega Manectric"
         ], 
         "id": "309", 
         "name": "Electrike", 
@@ -2725,10 +2925,20 @@
     {
         "atk": "240", 
         "def": "141", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Blaziken"
+        ], 
         "id": "257", 
         "name": "Blaziken", 
         "sta": "190"
+    }, 
+    {
+        "atk": "299", 
+        "def": "153", 
+        "evolutions": [], 
+        "id": "257", 
+        "name": "Mega Blaziken", 
+        "sta": "173"
     }, 
     {
         "atk": "211", 
@@ -2780,10 +2990,20 @@
     {
         "atk": "221", 
         "def": "159", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Aerodactyl"
+        ], 
         "id": "142", 
         "name": "Aerodactyl", 
         "sta": "190"
+    }, 
+    {
+        "atk": "266", 
+        "def": "192", 
+        "evolutions": [], 
+        "id": "142", 
+        "name": "Mega Aerodactyl", 
+        "sta": "173"
     }, 
     {
         "atk": "119", 
@@ -2905,7 +3125,8 @@
         "atk": "156", 
         "def": "133", 
         "evolutions": [
-            "Swampert"
+            "Swampert", 
+            "Mega Swampert"
         ], 
         "id": "259", 
         "name": "Marshtomp", 
@@ -3001,17 +3222,37 @@
     {
         "atk": "238", 
         "def": "182", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Pinsir"
+        ], 
         "id": "127", 
         "name": "Pinsir", 
         "sta": "163"
+    },
+    {
+        "atk": "278", 
+        "def": "210", 
+        "evolutions": [], 
+        "id": "127", 
+        "name": "Mega Pinsir", 
+        "sta": "149"
     }, 
     {
         "atk": "218", 
         "def": "126", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Banette"
+        ], 
         "id": "354", 
         "name": "Banette", 
+        "sta": "162"
+    }, 
+    {
+        "atk": "312", 
+        "def": "160", 
+        "evolutions": [], 
+        "id": "354", 
+        "name": "Mega Banette", 
         "sta": "162"
     }, 
     {
@@ -3026,7 +3267,8 @@
         "atk": "172", 
         "def": "155", 
         "evolutions": [
-            "Salamence"
+            "Salamence",
+            "Mega Salamence"
         ], 
         "id": "372", 
         "name": "Shelgon", 
@@ -3189,7 +3431,8 @@
         "atk": "76", 
         "def": "132", 
         "evolutions": [
-            "Altaria"
+            "Altaria",
+            "Mega Altaria"
         ], 
         "id": "333", 
         "name": "Swablu", 
@@ -3229,7 +3472,8 @@
         "def": "84", 
         "evolutions": [
             "Gabite", 
-            "Garchomp"
+            "Garchomp", 
+            "Mega Garchomp"
         ], 
         "id": "443", 
         "name": "Gible", 
@@ -3265,7 +3509,8 @@
         "atk": "145", 
         "def": "109", 
         "evolutions": [
-            "Ampharos"
+            "Ampharos",
+            "Mega Ampharos"
         ], 
         "id": "180", 
         "name": "Flaaffy", 
@@ -3274,10 +3519,20 @@
     {
         "atk": "234", 
         "def": "179", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Heracross"
+        ], 
         "id": "214", 
         "name": "Heracross", 
         "sta": "190"
+    }, 
+    {
+        "atk": "304", 
+        "def": "203", 
+        "evolutions": [], 
+        "id": "214", 
+        "name": "Mega Heracross", 
+        "sta": "173"
     }, 
     {
         "atk": "205", 
@@ -3485,9 +3740,19 @@
     {
         "atk": "141", 
         "def": "136", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Sableye"
+        ], 
         "id": "302", 
         "name": "Sableye", 
+        "sta": "137"
+    }, 
+    {
+        "atk": "151", 
+        "def": "216", 
+        "evolutions": [], 
+        "id": "302", 
+        "name": "Mega Sableye", 
         "sta": "137"
     }, 
     {
@@ -3519,10 +3784,20 @@
     {
         "atk": "236", 
         "def": "181", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Scizor"
+        ], 
         "id": "212", 
         "name": "Scizor", 
         "sta": "172"
+    }, 
+    {
+        "atk": "254", 
+        "def": "228", 
+        "evolutions": [], 
+        "id": "212", 
+        "name": "Mega Scizor", 
+        "sta": "157"
     }, 
     {
         "atk": "150", 
@@ -3765,7 +4040,8 @@
         "atk": "115", 
         "def": "105", 
         "evolutions": [
-            "Abomasnow"
+            "Abomasnow",
+            "Mega Abomasnow"
         ], 
         "id": "459", 
         "name": "Snover", 
@@ -3798,9 +4074,19 @@
     {
         "atk": "224", 
         "def": "144", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Houndoom"
+        ], 
         "id": "229", 
         "name": "Houndoom", 
+        "sta": "181"
+    }, 
+    {
+        "atk": "289", 
+        "def": "194", 
+        "evolutions": [], 
+        "id": "229", 
+        "name": "Mega Houndoom", 
         "sta": "181"
     }, 
     {
@@ -3835,7 +4121,8 @@
         "atk": "85", 
         "def": "232", 
         "evolutions": [
-            "Steelix"
+            "Steelix",
+            "Mega Steelix"
         ], 
         "id": "95", 
         "name": "Onix", 
@@ -3866,7 +4153,8 @@
         "def": "93", 
         "evolutions": [
             "Shelgon", 
-            "Salamence"
+            "Salamence",
+            "Mega Salamence"
         ], 
         "id": "371", 
         "name": "Bagon", 
@@ -4013,6 +4301,14 @@
         "sta": "205"
     }, 
     {
+        "atk": "331", 
+        "def": "251", 
+        "evolutions": [], 
+        "id": "383", 
+        "name": "Groudon (Primal)", 
+        "sta": "205"
+    }, 
+    {
         "atk": "41", 
         "def": "86", 
         "evolutions": [
@@ -4031,11 +4327,29 @@
         "sta": "205"
     }, 
     {
+        "atk": "331", 
+        "def": "251", 
+        "evolutions": [], 
+        "id": "382", 
+        "name": "Kyogre (Primal)", 
+        "sta": "205"
+    }, 
+    {
         "atk": "284", 
         "def": "170", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Rayquaza"
+        ], 
         "id": "384", 
         "name": "Rayquaza", 
+        "sta": "213"
+    }, 
+    {
+        "atk": "354", 
+        "def": "197", 
+        "evolutions": [], 
+        "id": "384", 
+        "name": "Mega Rayquaza", 
         "sta": "213"
     }, 
     {
@@ -4051,10 +4365,20 @@
     {
         "atk": "261", 
         "def": "193", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Garchomp"
+        ], 
         "id": "445", 
         "name": "Garchomp", 
         "sta": "239"
+    }, 
+    {
+        "atk": "309", 
+        "def": "202", 
+        "evolutions": [], 
+        "id": "445", 
+        "name": "Mega Garchomp", 
+        "sta": "217"
     }, 
     {
         "atk": "84", 
@@ -4128,9 +4452,19 @@
     {
         "atk": "236", 
         "def": "144", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Lucario"
+        ], 
         "id": "448", 
         "name": "Lucario", 
+        "sta": "172"
+    }, 
+    {
+        "atk": "310", 
+        "def": "175", 
+        "evolutions": [], 
+        "id": "448", 
+        "name": "Mega Lucario", 
         "sta": "172"
     }, 
     {
@@ -4229,10 +4563,20 @@
     {
         "atk": "277", 
         "def": "168", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Salamence"
+        ], 
         "id": "373", 
         "name": "Salamence", 
         "sta": "216"
+    },  
+    {
+        "atk": "282", 
+        "def": "228", 
+        "evolutions": [], 
+        "id": "373", 
+        "name": "Mega Salamence", 
+        "sta": "197"
     }, 
     {
         "atk": "185", 
@@ -4246,7 +4590,8 @@
         "atk": "78", 
         "def": "107", 
         "evolutions": [
-            "Medicham"
+            "Medicham",
+            "Mega Medicham"
         ], 
         "id": "307", 
         "name": "Meditite", 
@@ -4350,10 +4695,20 @@
     {
         "atk": "257", 
         "def": "228", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Metagross"
+        ], 
         "id": "376", 
         "name": "Metagross", 
         "sta": "190"
+    }, 
+    {
+        "atk": "273", 
+        "def": "263", 
+        "evolutions": [], 
+        "id": "376", 
+        "name": "Mega Metagross", 
+        "sta": "173"
     }, 
     {
         "atk": "146", 
@@ -4494,10 +4849,20 @@
     {
         "atk": "237", 
         "def": "195", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Gardevoir"
+        ], 
         "id": "282", 
         "name": "Gardevoir", 
         "sta": "169"
+    },  
+    {
+        "atk": "296", 
+        "def": "208", 
+        "evolutions": [], 
+        "id": "282", 
+        "name": "Mega Gardevoir", 
+        "sta": "154"
     }, 
     {
         "atk": "59", 
@@ -4510,18 +4875,46 @@
         "sta": "102"
     }, 
     {
-        "atk": "300", 
-        "def": "182", 
+        "atk": "182", 
+        "def": "278", 
         "evolutions": [], 
         "id": "150", 
+        "name": "Mewtwo (Armored)", 
+        "sta": "214"
+    }, 
+    {
+        "atk": "300", 
+        "def": "182", 
+        "evolutions": [
+            "Mega Mewtwo X",
+            "Mega Mewtwo Y"
+        ], 
+        "id": "150", 
         "name": "Mewtwo", 
+        "sta": "214"
+    }, 
+    {
+        "atk": "375", 
+        "def": "202", 
+        "evolutions": [], 
+        "id": "150", 
+        "name": "Mega Mewtwo X", 
+        "sta": "214"
+    }, 
+    {
+        "atk": "388", 
+        "def": "209", 
+        "evolutions": [], 
+        "id": "150", 
+        "name": "Mega Mewtwo Y", 
         "sta": "214"
     }, 
     {
         "atk": "127", 
         "def": "78", 
         "evolutions": [
-            "Lucario"
+            "Lucario",
+            "Mega Lucario"
         ], 
         "id": "447", 
         "name": "Riolu", 
@@ -4531,7 +4924,8 @@
         "atk": "163", 
         "def": "115", 
         "evolutions": [
-            "Blaziken"
+            "Blaziken", 
+            "Mega Blaziken"
         ], 
         "id": "256", 
         "name": "Combusken", 
@@ -4640,10 +5034,20 @@
     {
         "atk": "208", 
         "def": "175", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Swampert"
+        ], 
         "id": "260", 
         "name": "Swampert", 
         "sta": "225"
+    },  
+    {
+        "atk": "258", 
+        "def": "198", 
+        "evolutions": [], 
+        "id": "260", 
+        "name": "Mega Swampert", 
+        "sta": "205"
     }, 
     {
         "atk": "207", 
@@ -4665,7 +5069,8 @@
         "atk": "158", 
         "def": "198", 
         "evolutions": [
-            "Aggron"
+            "Aggron", 
+            "Mega Aggron"
         ], 
         "id": "305", 
         "name": "Lairon", 
@@ -4740,7 +5145,8 @@
         "atk": "138", 
         "def": "176", 
         "evolutions": [
-            "Metagross"
+            "Metagross",
+            "Mega Metagross"
         ], 
         "id": "375", 
         "name": "Metang", 
@@ -4794,10 +5200,20 @@
     {
         "atk": "251", 
         "def": "207", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Tyranitar"
+        ], 
         "id": "248", 
         "name": "Tyranitar", 
         "sta": "225"
+    },  
+    {
+        "atk": "281", 
+        "def": "251", 
+        "evolutions": [], 
+        "id": "248", 
+        "name": "Mega Tyranitar", 
+        "sta": "205"
     }, 
     {
         "atk": "96", 
@@ -4833,7 +5249,8 @@
         "atk": "155", 
         "def": "133", 
         "evolutions": [
-            "Tyranitar"
+            "Tyranitar", 
+            "Mega Tyranitar"
         ], 
         "id": "247", 
         "name": "Pupitar", 
@@ -4865,7 +5282,8 @@
         "atk": "138", 
         "def": "65", 
         "evolutions": [
-            "Banette"
+            "Banette",
+            "Mega Banette"
         ], 
         "id": "353", 
         "name": "Shuppet", 
@@ -4976,7 +5394,8 @@
         "def": "87", 
         "evolutions": [
             "Combusken", 
-            "Blaziken"
+            "Blaziken", 
+            "Mega Blaziken"
         ], 
         "id": "255", 
         "name": "Torchic", 
@@ -6090,9 +6509,19 @@
     {
         "atk": "114", 
         "def": "163", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Audino"
+        ], 
         "id": "531", 
         "name": "Audino", 
+        "sta": "230"
+    }, 
+    {
+        "atk": "147", 
+        "def": "239", 
+        "evolutions": [], 
+        "id": "531", 
+        "name": "Mega Audino", 
         "sta": "230"
     }, 
     {
