@@ -1686,7 +1686,9 @@
     {
         "atk": "198", 
         "def": "189", 
-        "evolutions": ["Mega Venusaur"], 
+        "evolutions": [
+            "Mega Venusaur"
+        ], 
         "id": "3", 
         "name": "Venusaur", 
         "sta": "190"
@@ -1702,7 +1704,9 @@
     {
         "atk": "171", 
         "def": "207", 
-        "evolutions": ["Mega Blastoise"], 
+        "evolutions": [
+            "Mega Blastoise"
+        ], 
         "id": "9", 
         "name": "Blastoise", 
         "sta": "188"
