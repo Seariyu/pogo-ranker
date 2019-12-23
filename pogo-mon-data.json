@@ -320,9 +320,19 @@
     {
         "atk": "177", 
         "def": "180", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Slowbro"
+        ], 
         "id": "80", 
         "name": "Slowbro", 
+        "sta": "216"
+    },
+    {
+        "atk": "224", 
+        "def": "259", 
+        "evolutions": [], 
+        "id": "80", 
+        "name": "Mega Slowbro", 
         "sta": "216"
     }, 
     {
@@ -501,7 +511,8 @@
         "def": "121", 
         "evolutions": [
             "Wartortle", 
-            "Blastoise"
+            "Blastoise", 
+            "Mega Blastoise"
         ], 
         "id": "7", 
         "name": "Squirtle", 
@@ -609,10 +620,20 @@
     {
         "atk": "271", 
         "def": "167", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Alakazam"
+        ], 
         "id": "65", 
         "name": "Alakazam", 
         "sta": "146"
+    },
+    {
+        "atk": "334", 
+        "def": "176", 
+        "evolutions": [], 
+        "id": "65", 
+        "name": "Mega Alakazam", 
+        "sta": "133"
     }, 
     {
         "atk": "170", 
@@ -730,7 +751,8 @@
         "def": "73", 
         "evolutions": [
             "Pidgeotto", 
-            "Pidgeot"
+            "Pidgeot", 
+            "Mega Pidgeot"
         ], 
         "id": "16", 
         "name": "Pidgey", 
@@ -1283,9 +1305,19 @@
     {
         "atk": "181", 
         "def": "165", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Kangaskhan"
+        ], 
         "id": "115", 
         "name": "Kangaskhan", 
+        "sta": "233"
+    }, 
+    {
+        "atk": "246", 
+        "def": "210", 
+        "evolutions": [], 
+        "id": "115", 
+        "name": "Mega Kangaskhan", 
         "sta": "233"
     }, 
     {
@@ -1340,7 +1372,8 @@
         "def": "98", 
         "evolutions": [
             "Slowking", 
-            "Slowbro"
+            "Slowbro", 
+            "Mega Slowbro"
         ], 
         "id": "79", 
         "name": "Slowpoke", 
@@ -1511,17 +1544,33 @@
     {
         "atk": "198", 
         "def": "189", 
-        "evolutions": [], 
+        "evolutions": ["Mega Venusaur"], 
         "id": "3", 
         "name": "Venusaur", 
         "sta": "190"
-    }, 
+    },
+    {
+        "atk": "241", 
+        "def": "246", 
+        "evolutions": [], 
+        "id": "3", 
+        "name": "Mega Venusaur", 
+        "sta": "190"
+    },
     {
         "atk": "171", 
         "def": "207", 
-        "evolutions": [], 
+        "evolutions": ["Mega Blastoise"], 
         "id": "9", 
         "name": "Blastoise", 
+        "sta": "188"
+    },
+    {
+        "atk": "264", 
+        "def": "237", 
+        "evolutions": [], 
+        "id": "9", 
+        "name": "Mega Blastoise", 
         "sta": "188"
     }, 
     {
@@ -1584,7 +1633,8 @@
         "def": "111", 
         "evolutions": [
             "Ivysaur", 
-            "Venusaur"
+            "Venusaur", 
+            "Mega Venusaur"
         ], 
         "id": "1", 
         "name": "Bulbasaur", 
@@ -1615,7 +1665,8 @@
         "def": "82", 
         "evolutions": [
             "Kadabra", 
-            "Alakazam"
+            "Alakazam", 
+            "Mega Alakazam"
         ], 
         "id": "63", 
         "name": "Abra", 
@@ -1663,7 +1714,8 @@
         "atk": "126", 
         "def": "155", 
         "evolutions": [
-            "Blastoise"
+            "Blastoise", 
+            "Mega Blastoise"
         ], 
         "id": "8", 
         "name": "Wartortle", 
@@ -1709,7 +1761,8 @@
         "atk": "117", 
         "def": "105", 
         "evolutions": [
-            "Pidgeot"
+            "Pidgeot", 
+            "Mega Pidgeot"
         ], 
         "id": "17", 
         "name": "Pidgeotto", 
@@ -1763,7 +1816,8 @@
         "atk": "223", 
         "def": "107", 
         "evolutions": [
-            "Gengar"
+            "Gengar", 
+            "Mega Gengar"
         ], 
         "id": "93", 
         "name": "Haunter", 
@@ -2007,7 +2061,8 @@
         "atk": "151", 
         "def": "143", 
         "evolutions": [
-            "Venusaur"
+            "Venusaur", 
+            "Mega Venusaur"
         ], 
         "id": "2", 
         "name": "Ivysaur", 
@@ -2168,10 +2223,20 @@
     {
         "atk": "261", 
         "def": "149", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Gengar"
+        ], 
         "id": "94", 
         "name": "Gengar", 
         "sta": "155"
+    }, 
+    {
+        "atk": "317", 
+        "def": "181", 
+        "evolutions": [], 
+        "id": "94", 
+        "name": "Gengar", 
+        "sta": "141"
     }, 
     {
         "atk": "175", 
@@ -2341,7 +2406,8 @@
         "atk": "46", 
         "def": "75", 
         "evolutions": [
-            "Beedrill"
+            "Beedrill",
+            "Mega Beedrill"
         ], 
         "id": "14", 
         "name": "Kakuna", 
@@ -2567,7 +2633,8 @@
         "atk": "232", 
         "def": "117", 
         "evolutions": [
-            "Alakazam"
+            "Alakazam", 
+            "Mega Alakazam"
         ], 
         "id": "64", 
         "name": "Kadabra", 
@@ -2592,9 +2659,19 @@
     {
         "atk": "169", 
         "def": "130", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Beedrill"
+        ], 
         "id": "15", 
         "name": "Beedrill", 
+        "sta": "163"
+    },  
+    {
+        "atk": "303", 
+        "def": "148", 
+        "evolutions": [], 
+        "id": "15", 
+        "name": "Mega Beedrill", 
         "sta": "163"
     }, 
     {
@@ -3289,7 +3366,8 @@
         "def": "67", 
         "evolutions": [
             "Haunter", 
-            "Gengar"
+            "Gengar", 
+            "Mega Gengar"
         ], 
         "id": "92", 
         "name": "Gastly", 
@@ -3483,7 +3561,9 @@
         "def": "93", 
         "evolutions": [
             "Charmeleon", 
-            "Charizard"
+            "Charizard", 
+            "Mega Charizard X", 
+            "Mega Charizard Y"
         ], 
         "id": "4", 
         "name": "Charmander", 
@@ -3601,10 +3681,29 @@
     {
         "atk": "223", 
         "def": "173", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Charizard X", 
+            "Mega Charizard Y"
+        ], 
         "id": "6", 
         "name": "Charizard", 
         "sta": "186"
+    },
+    {
+        "atk": "273", 
+        "def": "213", 
+        "evolutions": [], 
+        "id": "6", 
+        "name": "Mega Charizard X", 
+        "sta": "186"
+    },
+    {
+        "atk": "290", 
+        "def": "193", 
+        "evolutions": [], 
+        "id": "6", 
+        "name": "Mega Charizard Y", 
+        "sta": "170"
     }, 
     {
         "atk": "177", 
@@ -4057,7 +4156,9 @@
         "atk": "158", 
         "def": "126", 
         "evolutions": [
-            "Charizard"
+            "Charizard", 
+            "Mega Charizard X", 
+            "Mega Charizard Y"
         ], 
         "id": "5", 
         "name": "Charmeleon", 
@@ -4495,9 +4596,19 @@
     {
         "atk": "166", 
         "def": "154", 
-        "evolutions": [], 
+        "evolutions": [
+            "Mega Pidgeot"
+        ], 
         "id": "18", 
         "name": "Pidgeot", 
+        "sta": "195"
+    },  
+    {
+        "atk": "280", 
+        "def": "175", 
+        "evolutions": [], 
+        "id": "18", 
+        "name": "Mega Pidgeot", 
         "sta": "195"
     }, 
     {
@@ -4743,7 +4854,8 @@
         "def": "50", 
         "evolutions": [
             "Kakuna", 
-            "Beedrill"
+            "Beedrill",
+            "Mega Beedrill"
         ], 
         "id": "13", 
         "name": "Weedle", 
