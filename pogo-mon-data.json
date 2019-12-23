@@ -39,7 +39,8 @@
             "Vaporeon", 
             "Jolteon", 
             "Flareon", 
-            "Espeon"
+            "Espeon",
+            "Sylveon"
         ], 
         "id": "133", 
         "name": "Eevee", 
@@ -3173,6 +3174,14 @@
         "evolutions": [], 
         "id": "197", 
         "name": "Umbreon", 
+        "sta": "216"
+    }, 
+    {
+        "atk": "203", 
+        "def": "205", 
+        "evolutions": [], 
+        "id": "700", 
+        "name": "Sylveon", 
         "sta": "216"
     }, 
     {
