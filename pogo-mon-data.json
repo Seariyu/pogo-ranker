@@ -178,7 +178,7 @@
             "Obstagoon"
         ], 
         "id": "264", 
-        "name": "Linoone (Galar)", 
+        "name": "Linoone (Galarian)", 
         "sta": "186"
     }, 
     {
@@ -204,10 +204,10 @@
         "atk": "99", 
         "def": "78", 
         "evolutions": [
-            "Persian (Alola)"
+            "Persian (Alolan)"
         ], 
         "id": "52", 
-        "name": "Meowth (Alola)", 
+        "name": "Meowth (Alolan)", 
         "sta": "120"
     }, 
     {
@@ -453,17 +453,17 @@
         "def": "115", 
         "evolutions": [], 
         "id": "83", 
-        "name": "Farfetchd", 
+        "name": "Farfetch'd", 
         "sta": "141"
     }, 
     {
         "atk": "174", 
         "def": "114", 
         "evolutions": [
-            "Sirfetchd"
+            "Sirfetch'd"
         ], 
         "id": "83", 
-        "name": "Farfetchd (Galar)", 
+        "name": "Farfetch'd (Galarian)", 
         "sta": "141"
     }, 
     {
@@ -471,7 +471,7 @@
         "def": "176", 
         "evolutions": [], 
         "id": "865", 
-        "name": "Sirfetchd", 
+        "name": "Sirfetch'd", 
         "sta": "158"
     }, 
     {
@@ -746,10 +746,10 @@
         "atk": "103", 
         "def": "70", 
         "evolutions": [
-            "Raticate (Alola)"
+            "Raticate (Alolan)"
         ], 
         "id": "19", 
-        "name": "Rattata (Alola)", 
+        "name": "Rattata (Alolan)", 
         "sta": "102"
     }, 
     {
@@ -849,7 +849,7 @@
             "Perrserker"
         ], 
         "id": "52", 
-        "name": "Meowth (Galar)", 
+        "name": "Meowth (Galarian)", 
         "sta": "137"
     }, 
     {
@@ -914,10 +914,10 @@
         "atk": "125", 
         "def": "129", 
         "evolutions": [
-            "Sandslash (Alola)"
+            "Sandslash (Alolan)"
         ], 
         "id": "27", 
-        "name": "Sandshrew (Alola)", 
+        "name": "Sandshrew (Alolan)", 
         "sta": "137"
     }, 
     {
@@ -1370,7 +1370,7 @@
         "def": "197", 
         "evolutions": [], 
         "id": "110", 
-        "name": "Weezing (Galar)", 
+        "name": "Weezing (Galarian)", 
         "sta": "163"
     }, 
     {
@@ -1397,10 +1397,10 @@
         "atk": "108", 
         "def": "81", 
         "evolutions": [
-            "Dugtrio (Alola)"
+            "Dugtrio (Alolan)"
         ], 
         "id": "50", 
-        "name": "Diglett (Alola)", 
+        "name": "Diglett (Alolan)", 
         "sta": "67"
     }, 
     {
@@ -1499,6 +1499,24 @@
         "name": "Slowpoke", 
         "sta": "207"
     }, 
+    {
+        "atk": "109", 
+        "def": "98", 
+        "evolutions": [
+            "Slowbro (Galarian)"
+        ], 
+        "id": "79", 
+        "name": "Slowpoke (Galarian)", 
+        "sta": "207"
+    }, 
+    {
+        "atk": "177", 
+        "def": "180", 
+        "evolutions": [], 
+        "id": "80", 
+        "name": "Slowbro (Galarian)", 
+        "sta": "216"
+    },
     {
         "atk": "178", 
         "def": "158", 
@@ -2176,7 +2194,7 @@
         "def": "198", 
         "evolutions": [], 
         "id": "76", 
-        "name": "Golem (Alola)", 
+        "name": "Golem (Alolan)", 
         "sta": "190"
     }, 
     {
@@ -2193,10 +2211,10 @@
         "atk": "170", 
         "def": "127", 
         "evolutions": [
-            "Rapidash (Galar)"
+            "Rapidash (Galarian)"
         ], 
         "id": "77", 
-        "name": "Ponyta (Galar)", 
+        "name": "Ponyta (Galarian)", 
         "sta": "137"
     }, 
     {
@@ -2452,7 +2470,7 @@
         "def": "193", 
         "evolutions": [], 
         "id": "38", 
-        "name": "Ninetales (Alola)", 
+        "name": "Ninetales (Alolan)", 
         "sta": "177"
     }, 
     {
@@ -2480,7 +2498,7 @@
         "def": "153", 
         "evolutions": [], 
         "id": "103", 
-        "name": "Exeggutor (Alola)", 
+        "name": "Exeggutor (Alolan)", 
         "sta": "216"
     }, 
     {
@@ -2594,7 +2612,7 @@
         "def": "154", 
         "evolutions": [], 
         "id": "26", 
-        "name": "Raichu (Alola)", 
+        "name": "Raichu (Alolan)", 
         "sta": "155"
     }, 
     {
@@ -2640,7 +2658,7 @@
         "def": "136", 
         "evolutions": [], 
         "id": "53", 
-        "name": "Persian (Alola)", 
+        "name": "Persian (Alolan)", 
         "sta": "163"
     }, 
     {
@@ -2812,7 +2830,7 @@
             "Cursola"
         ], 
         "id": "222", 
-        "name": "Corsola (Galar)", 
+        "name": "Corsola (Galarian)", 
         "sta": "155"
     }, 
     {
@@ -3178,7 +3196,7 @@
         "def": "142", 
         "evolutions": [], 
         "id": "51", 
-        "name": "Dugtrio (Alola)", 
+        "name": "Dugtrio (Alolan)", 
         "sta": "111"
     }, 
     {
@@ -3718,17 +3736,17 @@
         "def": "186", 
         "evolutions": [], 
         "id": "105", 
-        "name": "Marowak (Alola)", 
+        "name": "Marowak (Alolan)", 
         "sta": "155"
     }, 
     {
         "atk": "135", 
         "def": "90", 
         "evolutions": [
-            "Muk (Alola)"
+            "Muk (Alolan)"
         ], 
         "id": "88", 
-        "name": "Grimer (Alola)", 
+        "name": "Grimer (Alolan)", 
         "sta": "190"
     }, 
     {
@@ -3771,10 +3789,10 @@
         "atk": "164", 
         "def": "164", 
         "evolutions": [
-            "Golem (Alola)"
+            "Golem (Alolan)"
         ], 
         "id": "75", 
-        "name": "Graveler (Alola)", 
+        "name": "Graveler (Alolan)", 
         "sta": "146"
     }, 
     {
@@ -3989,7 +4007,7 @@
         "def": "195", 
         "evolutions": [], 
         "id": "28", 
-        "name": "Sandslash (Alola)", 
+        "name": "Sandslash (Alolan)", 
         "sta": "181"
     }, 
     {
@@ -4072,7 +4090,7 @@
         "def": "154", 
         "evolutions": [], 
         "id": "20", 
-        "name": "Raticate (Alola)", 
+        "name": "Raticate (Alolan)", 
         "sta": "181"
     }, 
     {
@@ -4107,10 +4125,10 @@
         "atk": "58", 
         "def": "80", 
         "evolutions": [
-            "Linoone (Galar)"
+            "Linoone (Galarian)"
         ], 
         "id": "263", 
-        "name": "Zigzagoon (Galar)", 
+        "name": "Zigzagoon (Galarian)", 
         "sta": "116"
     }, 
     {
@@ -4791,7 +4809,7 @@
             "Mr. Rime"
         ], 
         "id": "122", 
-        "name": "Mr. Mime (Galar)", 
+        "name": "Mr. Mime (Galarian)", 
         "sta": "137"
     }, 
     {
@@ -4814,11 +4832,11 @@
         "atk": "132", 
         "def": "132", 
         "evolutions": [
-            "Graveler (Alola)", 
-            "Golem (Alola)"
+            "Graveler (Alolan)", 
+            "Golem (Alolan)"
         ], 
         "id": "74", 
-        "name": "Geodude (Alola)", 
+        "name": "Geodude (Alolan)", 
         "sta": "120"
     }, 
     {
@@ -4940,7 +4958,7 @@
         "def": "172", 
         "evolutions": [], 
         "id": "89", 
-        "name": "Muk (Alola)", 
+        "name": "Muk (Alolan)", 
         "sta": "233"
     }, 
     {
@@ -5066,7 +5084,7 @@
         "def": "162", 
         "evolutions": [], 
         "id": "78", 
-        "name": "Rapidash (Galar)", 
+        "name": "Rapidash (Galarian)", 
         "sta": "163"
     }, 
     {
@@ -5223,10 +5241,10 @@
         "atk": "96", 
         "def": "109", 
         "evolutions": [
-            "Ninetales (Alola)"
+            "Ninetales (Alolan)"
         ], 
         "id": "37", 
-        "name": "Vulpix (Alola)", 
+        "name": "Vulpix (Alolan)", 
         "sta": "116"
     }, 
     {
@@ -5968,7 +5986,7 @@
             "Runegrigus"
         ], 
         "id": "562", 
-        "name": "Yamask (Galar)", 
+        "name": "Yamask (Galarian)", 
         "sta": "116"
     }, 
     {
@@ -6092,11 +6110,11 @@
         "atk": "153", 
         "def": "86", 
         "evolutions": [
-            "Darmanitan (Galar Standard)", 
-            "Darmanitan (Galar Zen)"
+            "Darmanitan (Galarian Standard)", 
+            "Darmanitan (Galarian Zen)"
         ], 
         "id": "554", 
-        "name": "Darumaka (Galar)", 
+        "name": "Darumaka (Galarian)", 
         "sta": "172"
     }, 
     {
@@ -6327,7 +6345,7 @@
         "def": "114", 
         "evolutions": [], 
         "id": "555", 
-        "name": "Darmanitan (Galar Standard)", 
+        "name": "Darmanitan (Galarian Standard)", 
         "sta": "233"
     }, 
     {
@@ -6335,7 +6353,7 @@
         "def": "123", 
         "evolutions": [], 
         "id": "555", 
-        "name": "Darmanitan (Galar Zen)", 
+        "name": "Darmanitan (Galarian Zen)", 
         "sta": "233"
     }, 
     {
@@ -6489,7 +6507,7 @@
         "def": "171", 
         "evolutions": [], 
         "id": "618", 
-        "name": "Stunfisk (Galar)", 
+        "name": "Stunfisk (Galarian)", 
         "sta": "240"
     }, 
     {
